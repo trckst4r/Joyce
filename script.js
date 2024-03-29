@@ -10,6 +10,7 @@ yesBtn.addEventListener("click", ( ) => {
     img.src = "https://gifdb.com/images/high/animated-pusheen-thank-you-cat-zyvngsxio2nkydxo.gif";
 });
 noBtn.addEventListener("click", ( ) => {
+    question.innerHTML = "Say yes please....";
     const wrapperRect = wrapper.getBoundingClientRect();
     const noBtnRect = noBtn.getBoundingClientRect( );
     const maxX = window.innerWidth- noBtnRect.width;
